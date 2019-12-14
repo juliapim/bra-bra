@@ -1,0 +1,102 @@
+:root {
+   
+    font-family: 'Muli', sans-serif;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.tasty{
+    color: rgb(63, 100, 63);
+}
+
+nav {
+  background: #dbffab;
+  opacity: 0.5;
+  padding: 20px;
+  width: 100%;
+  color: #dbffab;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 3px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+}
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    
+    
+   
+}
+
+img{
+    width: 800px;
+    border-radius: 1%;
+}
+h2, h1{
+    color: #625757;
+}
+
+h2{
+    padding: 10px;
+}
+
+section a:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+       
+    }
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+    h2{
+        text-align: center;
+    }
+
+    section{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+
+}
+

@@ -1,0 +1,71 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/tree.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Muli', sans-serif;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    
+}
+
+h1{
+    
+    font-size: 60px;
+    padding-left: 80px;
+    color: rgb(98, 87, 87);
+    
+}
+
+i{
+    color: brown;
+    font-size: 30px;
+}
+
+i:hover  {
+             color: black;
+             font-size: 70px;
+}
+
+.box-1{
+    display: flex;
+}
+figure {
+    display: flex;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        h1{
+            color: black;
+        }
+    }
+
+   
+
+}
+
+@media screen and (min-width: 769px){
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+}
