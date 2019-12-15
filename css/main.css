@@ -27,28 +27,42 @@ i:hover {
   font-size: 70px;
 }
 
-.box-1 {
+main {
   display: flex;
 }
 
-figure {
+section {
   display: flex;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
-  .box-1 {
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding-top: 200px;
+    
   }
-  .box-1 h1 {
+  main h1 {
     color: black;
   }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  i{
+    padding-left: 80px;
+  }
+ 
 }
 @media screen and (min-width: 769px) {
-  .box-1 {
+  main {
     display: flex;
     flex-direction: column;
     align-items: center;
